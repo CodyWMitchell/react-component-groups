@@ -8,7 +8,7 @@ exports[`SkeletonTable component should render correctly 1`] = `
       <table
         aria-label="Loading"
         class="pf-v5-c-table pf-m-grid-md"
-        columns="first,second"
+        columns="[object Object],[object Object]"
         data-ouia-component-id="SkeletonTable"
         data-ouia-component-type="PF5/Table"
         data-ouia-safe="true"
@@ -220,7 +220,7 @@ exports[`SkeletonTable component should render correctly 1`] = `
     <table
       aria-label="Loading"
       class="pf-v5-c-table pf-m-grid-md"
-      columns="first,second"
+      columns="[object Object],[object Object]"
       data-ouia-component-id="SkeletonTable"
       data-ouia-component-type="PF5/Table"
       data-ouia-safe="true"
@@ -481,6 +481,2721 @@ exports[`SkeletonTable component should render correctly 1`] = `
 }
 `;
 
+exports[`SkeletonTable component should render correctly with a caption 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        aria-label="Loading"
+        class="pf-v5-c-table pf-m-grid-md"
+        columns="[object Object],[object Object]"
+        data-ouia-component-id="SkeletonTable"
+        data-ouia-component-type="PF5/Table"
+        data-ouia-safe="true"
+        role="grid"
+      >
+        <caption
+          class="pf-v5-c-table__caption"
+        >
+          Test Caption
+        </caption>
+        <thead
+          class="pf-v5-c-table__thead"
+          data-ouia-component-id="SkeletonTable-thead"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-head"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="SkeletonTable-th-0"
+              scope="col"
+              tabindex="-1"
+            >
+              first
+            </th>
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="SkeletonTable-th-1"
+              scope="col"
+              tabindex="-1"
+            >
+              second
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="pf-v5-c-table__tbody"
+          data-ouia-component-id="SkeletonTable-tbody"
+          role="rowgroup"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-0"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-1"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-2"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-3"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-4"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      aria-label="Loading"
+      class="pf-v5-c-table pf-m-grid-md"
+      columns="[object Object],[object Object]"
+      data-ouia-component-id="SkeletonTable"
+      data-ouia-component-type="PF5/Table"
+      data-ouia-safe="true"
+      role="grid"
+    >
+      <caption
+        class="pf-v5-c-table__caption"
+      >
+        Test Caption
+      </caption>
+      <thead
+        class="pf-v5-c-table__thead"
+        data-ouia-component-id="SkeletonTable-thead"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-head"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="SkeletonTable-th-0"
+            scope="col"
+            tabindex="-1"
+          >
+            first
+          </th>
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="SkeletonTable-th-1"
+            scope="col"
+            tabindex="-1"
+          >
+            second
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="pf-v5-c-table__tbody"
+        data-ouia-component-id="SkeletonTable-tbody"
+        role="rowgroup"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-0"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-1"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-2"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-3"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-4"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`SkeletonTable component should render correctly with a custom OUAI ID 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        aria-label="Loading"
+        class="pf-v5-c-table pf-m-grid-md"
+        columns="[object Object],[object Object]"
+        data-ouia-component-id="customID"
+        data-ouia-component-type="PF5/Table"
+        data-ouia-safe="true"
+        role="grid"
+      >
+        <thead
+          class="pf-v5-c-table__thead"
+          data-ouia-component-id="customID-thead"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="customID-tr-head"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="customID-th-0"
+              scope="col"
+              tabindex="-1"
+            >
+              first
+            </th>
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="customID-th-1"
+              scope="col"
+              tabindex="-1"
+            >
+              second
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="pf-v5-c-table__tbody"
+          data-ouia-component-id="customID-tbody"
+          role="rowgroup"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="customID-tr-0"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-0-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-0-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="customID-tr-1"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-1-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-1-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="customID-tr-2"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-2-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-2-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="customID-tr-3"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-3-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-3-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="customID-tr-4"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-4-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="customID-td-4-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      aria-label="Loading"
+      class="pf-v5-c-table pf-m-grid-md"
+      columns="[object Object],[object Object]"
+      data-ouia-component-id="customID"
+      data-ouia-component-type="PF5/Table"
+      data-ouia-safe="true"
+      role="grid"
+    >
+      <thead
+        class="pf-v5-c-table__thead"
+        data-ouia-component-id="customID-thead"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="customID-tr-head"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="customID-th-0"
+            scope="col"
+            tabindex="-1"
+          >
+            first
+          </th>
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="customID-th-1"
+            scope="col"
+            tabindex="-1"
+          >
+            second
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="pf-v5-c-table__tbody"
+        data-ouia-component-id="customID-tbody"
+        role="rowgroup"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="customID-tr-0"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-0-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-0-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="customID-tr-1"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-1-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-1-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="customID-tr-2"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-2-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-2-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="customID-tr-3"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-3-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-3-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="customID-tr-4"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-4-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="customID-td-4-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`SkeletonTable component should render correctly with a sort index 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        aria-label="Loading"
+        class="pf-v5-c-table pf-m-grid-md"
+        columns="[object Object],[object Object]"
+        data-ouia-component-id="SkeletonTable"
+        data-ouia-component-type="PF5/Table"
+        data-ouia-safe="true"
+        role="grid"
+      >
+        <thead
+          class="pf-v5-c-table__thead"
+          data-ouia-component-id="SkeletonTable-thead"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-head"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <th
+              class="pf-v5-c-table__th pf-m-selected"
+              data-ouia-component-id="SkeletonTable-th-0"
+              scope="col"
+              tabindex="-1"
+            >
+              first
+            </th>
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="SkeletonTable-th-1"
+              scope="col"
+              tabindex="-1"
+            >
+              second
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="pf-v5-c-table__tbody"
+          data-ouia-component-id="SkeletonTable-tbody"
+          role="rowgroup"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-0"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-1"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-2"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-3"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-4"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      aria-label="Loading"
+      class="pf-v5-c-table pf-m-grid-md"
+      columns="[object Object],[object Object]"
+      data-ouia-component-id="SkeletonTable"
+      data-ouia-component-type="PF5/Table"
+      data-ouia-safe="true"
+      role="grid"
+    >
+      <thead
+        class="pf-v5-c-table__thead"
+        data-ouia-component-id="SkeletonTable-thead"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-head"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <th
+            class="pf-v5-c-table__th pf-m-selected"
+            data-ouia-component-id="SkeletonTable-th-0"
+            scope="col"
+            tabindex="-1"
+          >
+            first
+          </th>
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="SkeletonTable-th-1"
+            scope="col"
+            tabindex="-1"
+          >
+            second
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="pf-v5-c-table__tbody"
+        data-ouia-component-id="SkeletonTable-tbody"
+        role="rowgroup"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-0"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-1"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-2"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-3"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-4"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`SkeletonTable component should render correctly with checkboxes 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        aria-label="Loading"
+        class="pf-v5-c-table pf-m-grid-md"
+        columns="[object Object],[object Object]"
+        data-ouia-component-id="SkeletonTable"
+        data-ouia-component-type="PF5/Table"
+        data-ouia-safe="true"
+        role="grid"
+      >
+        <thead
+          class="pf-v5-c-table__thead"
+          data-ouia-component-id="SkeletonTable-thead"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-head"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="SkeletonTable-th-checkbox"
+              tabindex="-1"
+            />
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="SkeletonTable-th-0"
+              scope="col"
+              tabindex="-1"
+            >
+              first
+            </th>
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="SkeletonTable-th-1"
+              scope="col"
+              tabindex="-1"
+            >
+              second
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="pf-v5-c-table__tbody"
+          data-ouia-component-id="SkeletonTable-tbody"
+          role="rowgroup"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-0"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-checkbox"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-1"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-checkbox"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-2"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-checkbox"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-3"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-checkbox"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-4"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-checkbox"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      aria-label="Loading"
+      class="pf-v5-c-table pf-m-grid-md"
+      columns="[object Object],[object Object]"
+      data-ouia-component-id="SkeletonTable"
+      data-ouia-component-type="PF5/Table"
+      data-ouia-safe="true"
+      role="grid"
+    >
+      <thead
+        class="pf-v5-c-table__thead"
+        data-ouia-component-id="SkeletonTable-thead"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-head"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="SkeletonTable-th-checkbox"
+            tabindex="-1"
+          />
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="SkeletonTable-th-0"
+            scope="col"
+            tabindex="-1"
+          >
+            first
+          </th>
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="SkeletonTable-th-1"
+            scope="col"
+            tabindex="-1"
+          >
+            second
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="pf-v5-c-table__tbody"
+        data-ouia-component-id="SkeletonTable-tbody"
+        role="rowgroup"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-0"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-checkbox"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-1"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-checkbox"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-2"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-checkbox"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-3"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-checkbox"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-4"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-checkbox"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`SkeletonTable component should render correctly with expandable rows 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        aria-label="Loading"
+        class="pf-v5-c-table pf-m-grid-md"
+        columns="[object Object],[object Object]"
+        data-ouia-component-id="SkeletonTable"
+        data-ouia-component-type="PF5/Table"
+        data-ouia-safe="true"
+        role="grid"
+      >
+        <thead
+          class="pf-v5-c-table__thead"
+          data-ouia-component-id="SkeletonTable-thead"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-head"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="SkeletonTable-th-expandable"
+              tabindex="-1"
+            />
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="SkeletonTable-th-0"
+              scope="col"
+              tabindex="-1"
+            >
+              first
+            </th>
+            <th
+              class="pf-v5-c-table__th"
+              data-ouia-component-id="SkeletonTable-th-1"
+              scope="col"
+              tabindex="-1"
+            >
+              second
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="pf-v5-c-table__tbody"
+          data-ouia-component-id="SkeletonTable-tbody"
+          role="rowgroup"
+        >
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-0"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-expandable"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-0-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-1"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-expandable"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-1-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-2"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-expandable"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-2-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-3"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-expandable"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-3-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="pf-v5-c-table__tr"
+            data-ouia-component-id="SkeletonTable-tr-4"
+            data-ouia-component-type="PF5/TableRow"
+            data-ouia-safe="true"
+          >
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-expandable"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+                style="--pf-v5-c-skeleton--Width: 16px;"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-0"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+            <td
+              class="pf-v5-c-table__td"
+              data-ouia-component-id="SkeletonTable-td-4-1"
+              tabindex="-1"
+            >
+              <div
+                class="pf-v5-c-skeleton"
+              >
+                <span
+                  class="pf-v5-screen-reader"
+                />
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      aria-label="Loading"
+      class="pf-v5-c-table pf-m-grid-md"
+      columns="[object Object],[object Object]"
+      data-ouia-component-id="SkeletonTable"
+      data-ouia-component-type="PF5/Table"
+      data-ouia-safe="true"
+      role="grid"
+    >
+      <thead
+        class="pf-v5-c-table__thead"
+        data-ouia-component-id="SkeletonTable-thead"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-head"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="SkeletonTable-th-expandable"
+            tabindex="-1"
+          />
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="SkeletonTable-th-0"
+            scope="col"
+            tabindex="-1"
+          >
+            first
+          </th>
+          <th
+            class="pf-v5-c-table__th"
+            data-ouia-component-id="SkeletonTable-th-1"
+            scope="col"
+            tabindex="-1"
+          >
+            second
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="pf-v5-c-table__tbody"
+        data-ouia-component-id="SkeletonTable-tbody"
+        role="rowgroup"
+      >
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-0"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-expandable"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-0-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-1"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-expandable"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-1-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-2"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-expandable"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-2-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-3"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-expandable"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-3-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="pf-v5-c-table__tr"
+          data-ouia-component-id="SkeletonTable-tr-4"
+          data-ouia-component-type="PF5/TableRow"
+          data-ouia-safe="true"
+        >
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-expandable"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+              style="--pf-v5-c-skeleton--Width: 16px;"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-0"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+          <td
+            class="pf-v5-c-table__td"
+            data-ouia-component-id="SkeletonTable-td-4-1"
+            tabindex="-1"
+          >
+            <div
+              class="pf-v5-c-skeleton"
+            >
+              <span
+                class="pf-v5-screen-reader"
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`SkeletonTable component should render correctly with rows 1`] = `
 {
   "asFragment": [Function],
@@ -489,7 +3204,7 @@ exports[`SkeletonTable component should render correctly with rows 1`] = `
       <table
         aria-label="Loading"
         class="pf-v5-c-table pf-m-grid-md"
-        columns="first,second"
+        columns="[object Object],[object Object]"
         data-ouia-component-id="SkeletonTable"
         data-ouia-component-type="PF5/Table"
         data-ouia-safe="true"
@@ -701,7 +3416,7 @@ exports[`SkeletonTable component should render correctly with rows 1`] = `
     <table
       aria-label="Loading"
       class="pf-v5-c-table pf-m-grid-md"
-      columns="first,second"
+      columns="[object Object],[object Object]"
       data-ouia-component-id="SkeletonTable"
       data-ouia-component-type="PF5/Table"
       data-ouia-safe="true"
